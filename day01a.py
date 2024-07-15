@@ -1,0 +1,1 @@
+print(max([sum(int(i) for i in cluster.split("\n")) for cluster in open("day01input.txt", 'r').read().split("\n\n")]))
